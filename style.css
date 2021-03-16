@@ -13,7 +13,7 @@
     height: 18px;
     width: 400px;
     background-color: var(--banner);
-    margin: auto;
+    
 }
 
 .hr-white{
@@ -38,17 +38,21 @@ header {
     flex-direction: row-reverse;
 }
 
-.text{
-    width: 450px;
-    max-height: 1000px;
-    margin: auto;
+.picture{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .text{
     width: 450px;
     max-height: 1000px;
+}
+
+text2{
+    width: 140px;
+    max-height: 1000px;
     text-align: left;
-    margin: left;
+    margin: right;
 }
 
 
