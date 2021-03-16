@@ -1,0 +1,62 @@
+:root{
+    --header: rgb(5, 16, 158);
+    --banner: rgb(192, 208, 247);
+    --text: rgb(255, 255, 255);
+    font-family: Helvetica;
+}
+
+.h2{
+    text-align: center;
+}
+
+.hr{
+    height: 18px;
+    width: 400px;
+    background-color: var(--banner);
+    margin: auto;
+}
+
+.hr-white{
+    height: 30px;
+    width: 450px;
+    background-color: white;
+    margin: auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: var(--header);
+    color: var(--text);
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.text{
+    width: 450px;
+    max-height: 1000px;
+    margin: auto;
+}
+
+.text{
+    width: 450px;
+    max-height: 1000px;
+    text-align: left;
+    margin: left;
+}
+
+
+footer{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-style: solid;
+    background-color: var(--header);
+}
